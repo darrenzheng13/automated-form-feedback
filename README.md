@@ -1,1 +1,5 @@
-# automated-form-feedback
+# Using Keypoint Detection to Classify Exercise Form
+
+In the popular sport of weightlifting, learning the correct form for exercises can help lifters, novice and advanced, avoid injury. However, traditional form correction, such as hiring a personal trainer, can be inaccessible to a large portion of lifters. The approach described in this independent work project uses AlphaPose, an open source computer vision library, to detect keypoints on a lifter's body when performing the back squat exercise with correct and incorrect form. These keypoints are then used to train various machine learning models, which then are used to classify squat form and are evaluated. In this project, logistic regression outperformed ridge classification and a multi-layer perceptron in classifying good and bad squat form. This application provides a framework in which exercise form can be improved with easily accessible software, enabling lifters to master proper exercise technique and avoid injury.
+
+The final report of this project can be found at Final_Report.pdf in this repositiory's files.
